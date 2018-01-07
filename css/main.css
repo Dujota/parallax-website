@@ -8,10 +8,23 @@ body, html{
   color: #666;
 }
 
+/* Scrolling Effect */
+.parallax-img1, .parallax-img2, .parallax-img3{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+}
+
+/* import images and position them */
 .parallax-img1{
   background-image: url('../img/img1.jpeg');
   min-height: 100%;
-  margin-left: -300px;
+  /* margin-left: -300px; */
 }
 
 .parallax-img2{
@@ -20,6 +33,7 @@ body, html{
 }
 
 .parallax-img3{
-  background-image: url('../img/img3.jpeg');
+  background-image: url('../img/img3-3.jpeg');
   min-height: 400px;
+
 }
