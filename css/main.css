@@ -21,14 +21,12 @@ body, html{
   scroll = normal
   */
   background-attachment: fixed;
-
 }
 
 /* import images and position them */
 .parallax-img1{
   background-image: url('../img/img1.jpeg');
   min-height: 100%;
-  /* margin-left: -300px; */
 }
 
 .parallax-img2{
@@ -39,5 +37,21 @@ body, html{
 .parallax-img3{
   background-image: url('../img/img3-3.jpeg');
   min-height: 400px;
+}
 
+/* Section Styling */
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color: #ddd;
 }
