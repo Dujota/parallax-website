@@ -75,3 +75,7 @@ body, html{
   padding: 20px;
   border-radius: 20px;
 }
+
+.ptext .border.trans{
+  background-color: transparent;
+}
