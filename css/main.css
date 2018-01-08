@@ -79,3 +79,9 @@ body, html{
 .ptext .border.trans{
   background-color: transparent;
 }
+
+@media(max-width:568px){
+  .parallax-img1, .parallax-img2, .parallax-img3{
+    background-attachment: scroll;
+  }
+}
