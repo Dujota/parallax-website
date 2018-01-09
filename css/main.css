@@ -132,9 +132,16 @@ body, html{
   z-index: 2;
 }
 
+.logo{
+  margin-right: -900px;
+  /* background-color: red; */
+  opacity: 0.7
+}
+
 .header-content h1{
   font-size: 50px;
   margin-bottom: 0;
+  /* align-content: center; */
 }
 
 .header-content p{
@@ -150,6 +157,7 @@ body, html{
   padding: 1rem 2rem;
   text-decoration: none;
 }
+
 /* Mobile friendly */
 
 @media(max-width:568px){
