@@ -74,11 +74,8 @@ body, html{
 }
 
 .ptext .border p{
-  /* background-color: white; */
   color: border-left: ;
-  /* padding: 20px; */
   font-size: .9rem;
-  /* border-radius: 10px; */
   text-align: left;
   position: absolute;
   display: inline-block;
@@ -86,7 +83,10 @@ body, html{
   z-index: 2;
   margin-left: -175px;
   margin-top: -50px;
-  text-decoration: shadow;
+  /* text-decoration: shadow; */
+  /* padding: 20px; */
+  /* border-radius: 10px; */
+  /* background-color: white; */
 
 }
 
@@ -114,7 +114,7 @@ body, html{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 110%;
   height: 100vh;
   overflow: hidden;
 }
@@ -152,7 +152,7 @@ body, html{
 .logo-name{
   /* background-color: red; */
   position: relative;
-  bottom: 390px;
+  bottom: 410px;
   /* left: 20px; */
 }
 
@@ -194,6 +194,26 @@ body, html{
   .parallax-img1, .parallax-img2, .parallax-img3{
     background-attachment: scroll;
   }
+
+  .logo-name{
+    /* background-color: red; */
+    position: relative;
+    bottom: 410px;
+    right: 290px;
+  }
+
+  .logo{
+    position: relative;
+    right: 280px;
+  }
+
+  .container{
+    max-width: 568px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+  }
+
 }
 
 @media(max-width:960px){
