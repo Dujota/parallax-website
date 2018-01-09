@@ -73,21 +73,12 @@ body, html{
   text-transform: uppercase;
 }
 
-.ptext .border p{
-  color: border-left: ;
-  font-size: .9rem;
-  text-align: left;
-  position: absolute;
-  display: inline-block;
-  width: 200px
-  z-index: 2;
-  margin-left: -175px;
-  margin-top: -50px;
-  /* text-decoration: shadow; */
-  /* padding: 20px; */
-  /* border-radius: 10px; */
-  /* background-color: white; */
-
+.ptext .border img{
+  position: relative;
+  top: -195px;
+  left: 40px;
+  max-height: 390px;
+  opacity: 0.90;
 }
 
 .ptext .border.trans{
@@ -241,6 +232,13 @@ body, html{
     padding-left: 1rem;
     padding-right: 1rem;
     margin: auto;
+  }
+
+  .ptext .border img{
+    position: relative;
+    top: -170px;
+    left: 100px;
+    max-width: 500px;
   }
 
 }
