@@ -112,7 +112,8 @@ body, html{
 .fullscreen-video-wrap video{
   min-width: 100%;
   min-height: 100%;
-  margin-bottom: -700px;
+  margin-bottom: -500px;
+  margin-left: -290px;
 }
 
 .header-overlay{
