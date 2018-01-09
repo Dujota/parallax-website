@@ -132,11 +132,20 @@ body, html{
   z-index: 2;
 }
 
+/* Logo & name */
 .logo{
-  margin-right: -900px;
-  /* background-color: red; */
-  opacity: 0.7
+  position: relative;
+  margin-top: 170px;
+  margin-right: 50px;
 }
+
+.logo-name{
+  /* background-color: red; */
+  position: relative;
+  bottom: 390px;
+  /* left: 20px; */
+}
+
 
 .header-content h1{
   font-size: 50px;
