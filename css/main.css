@@ -4,7 +4,7 @@
 body, html{
   height: 100%;
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Comic Sans MS", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
@@ -73,11 +73,21 @@ body, html{
   text-transform: uppercase;
 }
 
-.ptext .border{
-  background-color: #111;
-  color: white;
-  padding: 20px;
-  border-radius: 20px;
+.ptext .border p{
+  /* background-color: white; */
+  color: border-left: ;
+  /* padding: 20px; */
+  font-size: .9rem;
+  /* border-radius: 10px; */
+  text-align: left;
+  position: absolute;
+  display: inline-block;
+  width: 200px
+  z-index: 2;
+  margin-left: -175px;
+  margin-top: -50px;
+  text-decoration: shadow;
+
 }
 
 .ptext .border.trans{
@@ -132,9 +142,25 @@ body, html{
   z-index: 2;
 }
 
+/* Logo & name */
+.logo{
+  position: relative;
+  margin-top: 210px;
+  margin-right: 50px;
+}
+
+.logo-name{
+  /* background-color: red; */
+  position: relative;
+  bottom: 390px;
+  /* left: 20px; */
+}
+
+
 .header-content h1{
   font-size: 50px;
   margin-bottom: 0;
+  /* align-content: center; */
 }
 
 .header-content p{
@@ -150,6 +176,18 @@ body, html{
   padding: 1rem 2rem;
   text-decoration: none;
 }
+
+
+/* Star rating styling */
+.checked {
+    color: orange;
+}
+
+.rating{
+  display: inline-block;
+  padding: 20px;
+}
+
 /* Mobile friendly */
 
 @media(max-width:568px){
