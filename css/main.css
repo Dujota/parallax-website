@@ -51,7 +51,7 @@ body, html{
 }
 
 .section-light{
-  background-color: #f4f4f4;
+  background-color: #E8E8E8;
   color:#666;
 }
 
@@ -169,12 +169,41 @@ body, html{
   padding-bottom: 2rem;
 }
 
+/* About Me Button */
 .btn{
-  background: #34b3a0;
   color: #fff;
   font-size: 1.2rem;
-  padding: 1rem 2rem;
+  /* padding: .7rem 1rem; */
   text-decoration: none;
+  position: relative;
+  top: 20px;
+  border-radius: 30px;
+
+}
+
+.btn:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 
