@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body, html{
   height: 100%;
   margin: 0;
@@ -38,6 +41,7 @@ body, html{
   background-image: url('../img/img3-3.jpeg');
   min-height: 400px;
 }
+
 
 /* Section Styling */
 
@@ -80,8 +84,82 @@ body, html{
   background-color: transparent;
 }
 
+/* Header Video Conent styling */
+.v-header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.container{
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.fullscreen-video-wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-width: 100%;
+  min-height: 100%;
+  margin-bottom: -700px;
+}
+
+.header-overlay{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #d3d3d3;
+  z-index: 1;
+  opacity: 0.40;
+
+}
+
+.header-content{
+  z-index: 2;
+}
+
+.header-content h1{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.header-content p{
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.btn{
+  background: #34b3a0;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+/* Mobile friendly */
+
 @media(max-width:568px){
   .parallax-img1, .parallax-img2, .parallax-img3{
     background-attachment: scroll;
+  }
+}
+
+@media(max-width:960px){
+  .container{
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 }
