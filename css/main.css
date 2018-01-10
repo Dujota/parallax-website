@@ -182,7 +182,7 @@ body, html{
 
 }
 
-.btn:hover{
+.btn:hover, .ptext .border img:hover{
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -280,13 +280,4 @@ body, html{
   .parallax-img3 .ptext .border img{
     max-width: 370px;
   }
-
 }
-
-/* @media(max-width:960px){
-  .container{
-    max-width: 960px;
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-} */
