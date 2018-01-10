@@ -221,6 +221,11 @@ body, html{
 /* Mobile friendly */
 
 @media(max-width:568px){
+
+  .fullscreen-video-wrap video{
+    margin-left: -800px;
+  }
+
   .parallax-img1, .parallax-img2, .parallax-img3{
     background-attachment: scroll;
   }
