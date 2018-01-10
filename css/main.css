@@ -227,7 +227,7 @@ body, html{
 
   .logo{
     max-width: 400px;
-    left:0
+
   }
 
   .logo-name img{
@@ -268,7 +268,9 @@ body, html{
   .rating{
     display: block;
   }
-
+  .rating .skill{
+    display: block;
+  }
   .parallax-img2 .ptext .border img{
     max-width: 370px;
   }
