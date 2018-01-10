@@ -95,11 +95,12 @@ body, html{
 }
 
 .container{
-  max-width: 960px;
+  max-width: 100vw;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .fullscreen-video-wrap{
@@ -132,20 +133,23 @@ body, html{
 
 .header-content{
   z-index: 2;
+  position: absolute;
 }
 
 /* Logo & name */
 .logo{
+  /* background-color: red; */
   position: relative;
-  margin-top: 210px;
-  margin-right: 50px;
+  bottom: -100px;
+  /* top: 210px; */
+  left: 140px;
 }
 
 .logo-name{
   /* background-color: red; */
   position: relative;
-  bottom: 410px;
-  /* left: 20px; */
+  bottom: 305px;
+  left: 180px;
 }
 
 
@@ -168,7 +172,8 @@ body, html{
   /* padding: .7rem 1rem; */
   text-decoration: none;
   position: relative;
-  top: 20px;
+  top: 90px;
+  left: -525px;
   border-radius: 30px;
 
 }
@@ -216,16 +221,25 @@ body, html{
     background-attachment: scroll;
   }
 
-  .logo-name{
+  .logo-name img{
     /* background-color: red; */
     position: relative;
-    bottom: 410px;
-    right: 290px;
+    /* bottom: 410px; */
+    left: -330px;
+    top: 30px;
+    max-width: 600px;
   }
 
-  .logo{
+  .logo img{
     position: relative;
-    right: 280px;
+    left: -310px;
+    top: -100px;
+    max-width: 400px;
+  }
+
+  .btn{
+    left: -330px;
+    top: 30px;
   }
 
   .container{
@@ -238,14 +252,21 @@ body, html{
   .ptext .border img{
     position: relative;
     top: -170px;
-    left: 100px;
+    left: 10px;
     max-width: 500px;
+  }
+
+
+
+  .rating{
+    padding: 10px;
   }
 
 }
 
 @media(max-width:960px){
   .container{
+    max-width: 960px;
     padding-right: 3rem;
     padding-left: 3rem;
   }
