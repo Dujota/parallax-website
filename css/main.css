@@ -113,7 +113,7 @@ body, html{
 }
 
 .fullscreen-video-wrap video{
-  min-width: 100%;
+  min-width: 116%;
   min-height: 100%;
   margin-bottom: -500px;
   margin-left: -290px;
