@@ -133,23 +133,25 @@ body, html{
 
 .header-content{
   z-index: 2;
-  position: absolute;
 }
 
 /* Logo & name */
+
 .logo{
+  position: absolute;
+}
+.logo img{
   /* background-color: red; */
   position: relative;
-  bottom: -100px;
+  bottom: 100px;
   /* top: 210px; */
-  left: 140px;
+  left: 410px;
 }
 
-.logo-name{
+.logo-name img{
   /* background-color: red; */
   position: relative;
-  bottom: 305px;
-  left: 180px;
+  left: 200px;
 }
 
 
@@ -171,9 +173,11 @@ body, html{
   font-size: 1.2rem;
   /* padding: .7rem 1rem; */
   text-decoration: none;
-  position: relative;
-  top: 90px;
-  left: -525px;
+  position: absolute;
+  /* top: -90px;*/
+  left: 680px;
+  /* left: 50px; */
+
   border-radius: 30px;
 
 }
@@ -221,25 +225,30 @@ body, html{
     background-attachment: scroll;
   }
 
+  .logo{
+    max-width: 400px;
+    left:0
+  }
+
   .logo-name img{
     /* background-color: red; */
     position: relative;
     /* bottom: 410px; */
-    left: -330px;
+    left: -90px;
     top: 30px;
     max-width: 600px;
   }
 
   .logo img{
     position: relative;
-    left: -310px;
+    left: -20px;
     top: -100px;
-    max-width: 400px;
+    max-width: 390px;
   }
 
   .btn{
-    left: -330px;
-    top: 30px;
+    left: 190px;
+    top: 510px;
   }
 
   .container{
@@ -256,18 +265,24 @@ body, html{
     max-width: 500px;
   }
 
-
-
   .rating{
-    padding: 10px;
+    display: block;
+  }
+
+  .parallax-img2 .ptext .border img{
+    max-width: 370px;
+  }
+
+  .parallax-img3 .ptext .border img{
+    max-width: 370px;
   }
 
 }
 
-@media(max-width:960px){
+/* @media(max-width:960px){
   .container{
     max-width: 960px;
     padding-right: 3rem;
     padding-left: 3rem;
   }
-}
+} */
