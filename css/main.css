@@ -225,16 +225,18 @@ body, html{
     background-attachment: scroll;
   }
 
+  .header-content{
+    max-width: 400px
+  }
   .logo{
-    max-width: 400px;
-
+    max-width: 367px;
   }
 
   .logo-name img{
     /* background-color: red; */
     position: relative;
     /* bottom: 410px; */
-    left: -90px;
+    left: -119px;
     top: 30px;
     max-width: 600px;
   }
@@ -243,11 +245,11 @@ body, html{
     position: relative;
     left: -20px;
     top: -100px;
-    max-width: 390px;
+    max-width: 380px;
   }
 
   .btn{
-    left: 190px;
+    left: 160px;
     top: 510px;
   }
 
