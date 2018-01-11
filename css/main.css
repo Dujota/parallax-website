@@ -6,10 +6,19 @@ body, html{
   height: 100%;
   margin: 0;
   font-size: 18px;
-  font-family: "Comic Sans MS", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
+}
+
+h1, h2{
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+p, span{
+  font-family: 'Arimo', serif;
+  font-size: 20px;
 }
 
 /* Scrolling Effect */
@@ -286,7 +295,7 @@ body, html{
 
   .ptext .border img{
     position: relative;
-    top: -120px;
+    top: -180px;
     left: 20px;
     max-width: 500px;
   }
