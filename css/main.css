@@ -134,7 +134,9 @@ body, html{
   /* border:  solid 5px white; */
   z-index: 2;
   max-height: 100vh;
+  max-width: 100vw;
   margin:  0 auto;
+
 }
 
 /* Logo & name */
@@ -143,6 +145,7 @@ body, html{
   /* background-color: lightgray; */
   margin-top: 30px;
   max-width: 100vw;
+  /* margin-left: -100px; */
 }
 
 .logo-name img{
@@ -151,7 +154,7 @@ body, html{
   height: 270px;
   position:  relative;
   bottom: 320px;
-  left: 30px;
+
 }
 
 
@@ -169,7 +172,9 @@ body, html{
 
 /* About Me Button */
 .logo-name a{
+  /* background-color: lightgreen; */
   display: block;
+  left: 0;
 }
 .btn{
   color: #fff;
@@ -207,7 +212,7 @@ body, html{
 }
 
 
-/* Star rating styling */
+/* Rating styling */
 .checked {
     color: orange;
 }
@@ -218,12 +223,21 @@ body, html{
 }
 
 /* Mobile friendly */
-@media(max-width:800px){
+@media(max-width:960px){
   .fullscreen-video-wrap video{
     min-width: 116%;
     min-height: 100%;
     margin-bottom: -500px;
-    margin-left: -590px;
+    margin-left: -520px;
+  }
+}
+
+@media (max-width:720px) {
+  .fullscreen-video-wrap video{
+    min-width: 116%;
+    min-height: 100%;
+    margin-bottom: -500px;
+    margin-left: -640px;
   }
 }
 
@@ -255,8 +269,7 @@ body, html{
   .logo img{
     position: relative;
     top: 80px;
-    left: -10px;
-    max-width: 380px;
+    max-width: 390px;
   }
 
   .btn{
