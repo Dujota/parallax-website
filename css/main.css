@@ -62,7 +62,7 @@ body, html{
 }
 
 
-/* paragraph text */
+/* image text and content styling */
 .ptext{
   position: absolute;
   top: 50%;
@@ -77,7 +77,7 @@ body, html{
 .ptext .border img{
   position: relative;
   top: -195px;
-  left: 40px;
+  left: -20px;
   max-height: 390px;
   opacity: 0.90;
 }
@@ -180,6 +180,7 @@ body, html{
   left: 28px;
 }
 
+/* Hover Shaking effect */
 .btn:hover, .ptext .border img:hover{
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
@@ -272,8 +273,8 @@ body, html{
 
   .ptext .border img{
     position: relative;
-    top: -170px;
-    left: 10px;
+    top: -120px;
+    left: 20px;
     max-width: 500px;
   }
 
