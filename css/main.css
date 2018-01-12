@@ -231,6 +231,40 @@ p, span{
   padding: 20px;
 }
 
+/* skills */
+
+.skill-container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.learn{ width: 100%;
+  background-color: #616161;
+}
+.back-end {
+  width: 90%;
+  background-color: #616161;
+}
+.front-end {
+  width: 80%;
+  background-color: #616161;
+}
+.design {
+  width: 75%;
+  background-color: #616161;
+}
+.testing {
+  width: 70%;
+  background-color: #616161;
+}
+
 /* Mobile friendly */
 @media(max-width:960px){
   .fullscreen-video-wrap video{
